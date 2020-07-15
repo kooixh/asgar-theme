@@ -27,6 +27,15 @@
                     <time class="entry-date"
                         datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time> - <time
                         class="entry-reading-time">{{reading_time}}</time>
+                    <span class="bull">&bull;</span>
+                      <a href="https://twitter.com/intent/tweet/?text={{title}}{{#if @site.twitter}} via {{@site.twitter}}{{/if}}&url={{url absolute="true"}}"
+                        target="_blank" rel="noopener" class="platform twitter" title="Share on Twitter">Share On Twitter
+                      </a>
+                    <span class="bull">&bull;</span>
+                      <a href="https://facebook.com/sharer/sharer.php?u={{url absolute="true"}}" target="_blank" rel="noopener"
+                        class="platform facebook" title="Share on Facebook">
+                        Share On Facebook
+                      </a>
                 </header>
 
                 <section class="post-full-content">
