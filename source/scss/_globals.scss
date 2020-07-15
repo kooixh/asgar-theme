@@ -17,12 +17,12 @@ body {
 
 a {
     text-decoration: none;
-    color: $dark;
+    color: $primary-link-light-mode;
     cursor: pointer;
     @extend %transition;
 
     &:hover {
-        color: $dark-red;
+        color: $secondary-text-light-mode;
     }
 }
 
@@ -169,4 +169,13 @@ blockquote {
 
 .text-underline {
     text-decoration: underline;
+}
+
+.nav-socials-button {
+  padding-top: 10px;
+}
+
+.post-card-image {
+  width: 100%;
+  max-width: 300px;
 }

@@ -6,11 +6,19 @@
       <a href="{{url absolute="true"}}">{{label}}</a>
     </li>
     {{/foreach}}
+    <li role="menuitem">
+      <a class="social-link social-link-tw" href="https://github.com/kooixh" title="GitHub" target="_blank" rel="noopener">{{> "icons/github"}}</a>
+    </li>
   </ul>
 </nav>
 {{else}}
 <nav class="header-navigation" role="navigation">
   <ul class="nav" role="menu">
+    {{#is "post"}}
+      <li class="nav-back-to-blog" role="menuitem">
+        <a href="https://blog.kooixiuhong.com">Blog</a>
+      </li>
+    {{/is}}
     {{#foreach navigation}}
     <li class="{{link_class for=(url) class=(concat "nav-" slug)}}" role="menuitem">
       <a href="{{url absolute="true"}}">{{label}}</a>

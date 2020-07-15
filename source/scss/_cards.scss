@@ -9,6 +9,10 @@
     margin: 0;
     text-align: center;
 
+    &.kg-code-card {
+      text-align: left;
+    }
+
     &.kg-gallery-card {
         .kg-gallery-container {
             display: flex;

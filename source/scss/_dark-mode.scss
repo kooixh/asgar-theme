@@ -6,10 +6,10 @@ body {
         &::selection { background: $dm-grey; }
 
         a {
-            color: $dm-light;
+            color: $primary-link-dark-mode;
 
             &:hover {
-                color: $dm-red;
+                color: $secondary-text-dark-mode;
             }
         }
 
@@ -19,7 +19,7 @@ body {
         h4,
         h5,
         h6 {
-            color: $dm-light;
+            color: $primary-header-dark-mode;
         }
 
         select:focus,
@@ -66,6 +66,10 @@ body {
                     }
                 }
             }
+        }
+
+        .title a {
+          color: $primary-header-dark-mode
         }
 
         main {
@@ -123,6 +127,14 @@ body {
             .kg-bookmark-container {
                 border-color: $dm-grey;
             }
+        }
+
+        .nav-socials-button {
+          fill: white !important;
+        }
+
+        code {
+          background: #000000;
         }
     }
 }
