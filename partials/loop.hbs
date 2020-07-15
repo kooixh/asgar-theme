@@ -5,7 +5,7 @@
     {{#if featured}}
     <article class="post featured-post">
         <div class="row">
-            <div class="five columns">
+            <div class="six columns">
                 <header class="entry-header">
                     <p class="entry-author">
                         {{#primary_author}}
@@ -36,7 +36,7 @@
                         datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMMM YYYY"}}</time>
                 </header>
             </div>
-            <div class="offset-by-one six columns u-pull-right">
+            <div class="offset-by-one five columns u-pull-right">
                 <section class="entry-content">
                     <p class="entry-tags">{{tags prefix="On: " limit="5"}}</p>
                     <p>{{excerpt words="50"}}...</p>
@@ -55,7 +55,7 @@
     {{#unless featured}}
     <article class="post">
         <div class="row">
-            <div class="five columns">
+            <div class="six columns">
                 <header class="entry-header">
                     <p class="entry-author">
                         {{#primary_author}}
@@ -84,7 +84,7 @@
                     {{/if}}
                 </header>
             </div>
-            <div class="offset-by-one six columns u-pull-right">
+            <div class="offset-by-one five columns u-pull-right">
                 <section class="entry-content">
                     <p class="entry-tags">{{tags prefix="On: " limit="5"}}</p>
                     <p>{{excerpt words="50"}}...</p>
