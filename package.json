@@ -1,9 +1,9 @@
 {
-  "name": "asgar",
+  "name": "asgar-kooixh",
   "description": "A two column, free and open source theme for Ghost",
   "demo": "https://asgar.stefancosma.xyz",
   "homepage": "https://github.com/stefanbc/Asgar#readme",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "engines": {
     "ghost": ">=3.0.0",
     "ghost-api": "v3"
@@ -14,9 +14,9 @@
     "mobile": "assets/screenshot-mobile.jpg"
   },
   "author": {
-    "name": "Stefan Cosma",
-    "url": "https://stefancosma.xyz",
-    "email": "hello@stefancosma.xyz"
+    "name": "Xiu Hong Kooi",
+    "url": "https://kooixiuhong.com",
+    "email": "xiuhong.kooi977055@gmail.com"
   },
   "gpm": {
     "type": "theme",
@@ -41,16 +41,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stefanbc/Asgar.git"
+    "url": "git+https://github.com/kooixh/asgar-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/stefanbc/Asgar/issues"
+    "url": "https://github.com/kooixh/asgar-theme/issues"
   },
   "contributors": [
     {
       "name": "Stefan Cosma",
       "email": "hello@stefancosma.xyz",
       "url": "https://stefancosma.xyz"
+    },
+    {
+      "name": "Xiu Hong Kooi",
+      "url": "https://kooixiuhong.com",
+      "email": "xiuhong.kooi977055@gmail.com"
     }
   ],
   "scripts": {
