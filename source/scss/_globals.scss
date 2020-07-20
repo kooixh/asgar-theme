@@ -179,3 +179,10 @@ blockquote {
   width: 100%;
   max-width: 300px;
 }
+
+.subscribe-message {
+  visibility: hidden;
+}
+form.success .subscribe-message {
+  visibility: visible;
+}
